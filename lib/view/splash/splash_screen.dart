@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:tech_media/res/fonts.dart';
+import 'package:tech_media/constants/fonts.dart';
 
-import '../../res/color.dart';
+import '../../constants/color.dart';
 
 
 

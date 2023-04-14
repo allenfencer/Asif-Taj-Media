@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:tech_media/res/color.dart';
-import 'package:tech_media/res/components/input_field.dart';
-import 'package:tech_media/utils/routes/route_name.dart';
+import 'package:tech_media/constants/route_name.dart';
 
-import '../../res/components/custom_button.dart';
-import '../signup/sign_up_screen.dart';
+import '../../global widgets/custom_button.dart';
+import '../../global widgets/input_field.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

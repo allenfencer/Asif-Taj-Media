@@ -1,11 +1,8 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:tech_media/utils/routes/route_name.dart';
+import 'package:tech_media/constants/route_name.dart';
 
-import '../../res/color.dart';
-import '../../res/components/custom_button.dart';
-import '../../res/components/input_field.dart';
-import '../login/login_screen.dart';
+import '../../global widgets/custom_button.dart';
+import '../../global widgets/input_field.dart';
 
 class SignupScreen extends StatefulWidget {
   const SignupScreen({super.key});

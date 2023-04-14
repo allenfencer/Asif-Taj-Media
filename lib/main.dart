@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tech_media/res/color.dart';
-import 'package:tech_media/res/fonts.dart';
-import 'package:tech_media/utils/routes/route_name.dart';
+import 'package:tech_media/constants/color.dart';
+import 'package:tech_media/constants/fonts.dart';
+import 'package:tech_media/constants/route_name.dart';
 import 'package:tech_media/utils/routes/routes.dart';
 import 'package:tech_media/view/splash/splash_screen.dart';
 
