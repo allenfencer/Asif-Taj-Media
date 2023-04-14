@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "328744773619",
+    "project_id": "chat-app-7777c",
+    "storage_bucket": "chat-app-7777c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328744773619:android:78c901c917025589d81486",
+        "android_client_info": {
+          "package_name": "com.allenfencer.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328744773619-ci5r83karttrkq2d4esd08mlgmrj7d9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwWVFM3PKPvVpVEGMsS1s6tMiodhtY9d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328744773619-ci5r83karttrkq2d4esd08mlgmrj7d9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -22,9 +22,9 @@ class _SplashScreenState extends State<SplashScreen> {
           child:Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
+            children: const [
              Image(image: AssetImage('assets/images/logo.jpg')),
-              const Padding(
+               Padding(
                 padding:  EdgeInsets.symmetric(vertical: 20),
                 child: Center(child: Text('Tech Brothers Media' , style: TextStyle(fontFamily: AppFonts.sfProDisplayBold , fontSize: 40, fontWeight: FontWeight.w700),)),
               )
