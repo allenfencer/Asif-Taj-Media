@@ -1,11 +1,14 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:tech_media/constants/color.dart';
 import 'package:tech_media/constants/fonts.dart';
-import 'package:tech_media/constants/route_name.dart';
+import 'package:tech_media/utils/routes/route_name.dart';
 import 'package:tech_media/utils/routes/routes.dart';
 import 'package:tech_media/view/splash/splash_screen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -77,7 +80,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       home: const SplashScreen(),
-      initialRoute: RouteName.loginScreen,
+      initialRoute: RouteName.splashScreen,
       onGenerateRoute: Routes.generateRoute,
     );
   }

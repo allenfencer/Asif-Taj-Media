@@ -2,7 +2,8 @@
   "project_info": {
     "project_number": "328744773619",
     "project_id": "chat-app-7777c",
-    "storage_bucket": "chat-app-7777c.appspot.com"
+    "storage_bucket": "chat-app-7777c.appspot.com",
+    "firebase_url": " https://chat-app-7777c-default-rtdb.asia-southeast1.firebasedatabase.app"
   },
   "client": [
     {
